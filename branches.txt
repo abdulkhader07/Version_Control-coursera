@@ -1,0 +1,48 @@
+#pwd
+#git status
+#git checkout -B feature/lesson
+#git branch
+#touch test2.txt
+#git add test2.txt
+#git commit -m "add test2.txt"
+.
+.
+#git puch -u origin feature/lesson
+it's good practice to specify dash U.
+This means that I'm only going to
+get updates from the upstream,
+which in this case will be the main branch.
+The result of this is that
+the origin won't be my main branch anymore. 
+...the feature/lesson will be the main branch...
+
+it will ask your username
+username : abdulkhader07
+password : enter your pass
+ boom!
+git hub will recognise new branch 
+.
+.
+.
+go to github then it will display : compare and pull request in green 
+click on it.....>
+go down commit
+
+.
+.
+.
+you can 
+#git status
+#git checkout main
+comming out of featuure/lesson branch
+#git pull
+
+....Notice that the test2.txt file is now available.
+I can also verify that by doing
+a simple check within
+the directory by using the ls command....
+#ls
+.
+.
+
+

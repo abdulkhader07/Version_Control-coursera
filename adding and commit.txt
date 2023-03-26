@@ -1,0 +1,46 @@
+#pwd
+#ls-la
+it show the list 
+list contains...
+.git file 
+README.md file
+#git status
+on branch main
+your branch is upto date
+nothing to commot, working tree clean
+#touch test.txt
+#git status
+says that:on branch main
+your branch is upto date wit..
+untracked files:
+	test.txt
+says that: nothing added to commit but untracked file are present and says to use git add to track them
+....
+.
+.
+.
+.
+
+The purpose of the git add command is that I'm essentially prompting git and
+letting it know that I want to track this file, and
+that it will be included as part of my commit. 
+#git add test.txt
+#git status
+.
+.
+.
+#git restore  stage test.txt
+..
+For this, I can use the git restore command with the flag-- stage and
+the file name test.txt.
+Running the command will unstage the file from the commit.
+I then run git status one more time to see the file is back to an untracked status.
+So once again I'll add the file using git add test.txt.
+Run git status, and now notice that the file is back in a tracked state. 
+.
+.
+.
+.
+#git commit -m"Adding a new file for testing"
+.... -m is used to write message like adding a new file for testing.
+#git status
