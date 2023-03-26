@@ -1,0 +1,17 @@
+mkdir project
+cd project
+git clone https://github.com/my-first-repo.git
+.
+.
+.
+this https:....git
+you need to copy it from the github 
+you need to first open an repo
+then click on code then http
+then you can copy it and paste it in gitbash.
+there are many option in code like.
+.
+.
+.
+http...ssh...githubcli
+choose http for using it in gitbash.
